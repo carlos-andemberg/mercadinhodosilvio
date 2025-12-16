@@ -22,7 +22,7 @@ export function Catalog() {
       
       <div className="mb-8 text-center">
         <h2 className="text-3xl font-bold text-brand-blue mb-2">Nossos Produtos</h2>
-        <p className="text-gray-600">Confira o que temos disponível na loja hoje.</p>
+        <p className="text-gray-600">Confira o que há de bom no mercadinho agora mesmo.</p>
       </div>
 
       {/* Barra de Busca */}
