@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Definindo as cores do Mercadinho Silvio aqui */
+  --color-brand-blue: #2b3b8c;
+  --color-brand-yellow: #fce94f;
+  --color-brand-green: #68c468;
+}
+/* Estilo global opcional */
+body {
+  background-color: #2b3b8c;
+  overflow-x: hidden;
+  width: 100%;
+}
