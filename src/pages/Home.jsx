@@ -7,11 +7,11 @@ export function Home() {
       
       {/* Banner de Boas Vindas */}
       <div className="w-full bg-brand-blue text-white py-16 px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Mercadinho do Silvio
-        </h1>
-        <p className="text-xl md:text-2xl text-blue-100 max-w-2xl mx-auto">
+        <h6 className="text-4xl md:text-5xl font-bold mb-4">
           Qualidade, variedade e preço baixo perto de você.
+        </h6>
+        <p className="text-2xl md:text-3xl text-blue-100 max-w-2xl mx-auto">
+          Venha e aproveita.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Link 
