@@ -20,7 +20,7 @@ export const products = [
     { id: 102, name: "Melão Amarelo", category: "Hortifruti", image: "/images/hortifruti/melao.jpg" },
     { id: 103, name: "Mamão", category: "Hortifruti", image: "/images/hortifruti/mamao.jpg" },
     { id: 104, name: "Manga Tommy", category: "Hortifruti", image: "/images/hortifruti/manga-tommy.jpg" },
-    { id: 105, name: "Banana Prata (Dúzia)", category: "Hortifruti", image: "/images/hortifruti/banana-prata.jpg" },
+    { id: 105, name: "Banana Prata", category: "Hortifruti", image: "/images/hortifruti/banana-prata.jpg" },
     { id: 106, name: "Maracujá", category: "Hortifruti", image: "/images/hortifruti/maracuja.jpg" },
     { id: 107, name: "Uva Verde", category: "Hortifruti", image: "/images/hortifruti/uva-verde.jpg" },
     { id: 108, name: "Coco Seco", category: "Hortifruti", image: "/images/hortifruti/coco-seco.jpg" },
@@ -32,9 +32,21 @@ export const products = [
     { id: 114, name: "Repolho Verde", category: "Hortifruti", image: "/images/hortifruti/repolho.jpg" },
     { id: 115, name: "Pepino", category: "Hortifruti", image: "/images/hortifruti/pepino.jpg" },
     { id: 116, name: "Gengibre", category: "Hortifruti", image: "/images/hortifruti/gengibre.jpg" },
-    { id: 117, name: "Alho (Cabeça)", category: "Hortifruti", image: "/images/hortifruti/alho.jpg" },
-    { id: 118, name: "Banana Comprida (Dúzia)", category: "Hortifruti", image: "/images/hortifruti/banana-comprida.jpg" },
+    { id: 117, name: "Alho", category: "Hortifruti", image: "/images/hortifruti/alho.jpg" },
+    { id: 118, name: "Banana Comprida", category: "Hortifruti", image: "/images/hortifruti/banana-comprida.jpg" },
     { id: 119, name: "Manga Espada", category: "Hortifruti", image: "/images/hortifruti/manga-espada.jpg" },
+    { id: 120, name: "Batata Doce Vitória", category: "Hortifruti", image: "/images/hortifruti/batata-doce.jpg" },
+    { id: 121, name: "Manga Rosa", category: "Hortifruti", image: "/images/hortifruti/manga-rosa.jpg" },
+    { id: 122, name: "Uva Roxa", category: "Hortifruti", image: "/images/hortifruti/uva-roxa.jpg" },
+    { id: 123, name: "Abóbora", category: "Hortifruti", image: "/images/hortifruti/abobora.jpg" },
+    { id: 124, name: "Alface", category: "Hortifruti", image: "/images/hortifruti/alface.jpg" },
+    { id: 125, name: "Coentro", category: "Hortifruti", image: "/images/hortifruti/coentro.jpg" },
+    { id: 126, name: "Laranja Pêra", category: "Hortifruti", image: "/images/hortifruti/laranja-pera.jpg" },
+    { id: 127, name: "Maçã", category: "Hortifruti", image: "/images/hortifruti/maca.jpg" },
+    
+    { id: 128, name: "Laranja Cravo", category: "Hortifruti", image: "/images/hortifruti/laranja-cravo.jpg" },
+    { id: 129, name: "Laranja Lima", category: "Hortifruti", image: "/images/hortifruti/laranja-lima.jpg" },
+    { id: 130, name: "Abacaxi", category: "Hortifruti", image: "/images/hortifruti/abacaxi.jpg" },
     
     // =========================================
     // 2. MERCEARIA (Arroz, Feijão, Macarrão...)
