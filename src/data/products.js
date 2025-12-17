@@ -47,6 +47,11 @@ export const products = [
     { id: 128, name: "Laranja Cravo", category: "Hortifruti", image: "/images/hortifruti/laranja-cravo.jpg" },
     { id: 129, name: "Laranja Lima", category: "Hortifruti", image: "/images/hortifruti/laranja-lima.jpg" },
     { id: 130, name: "Abacaxi", category: "Hortifruti", image: "/images/hortifruti/abacaxi.jpg" },
+    { id: 131, name: "Limão", category: "Hortifruti", image: "/images/hortifruti/limao.jpg" },
+    { id: 132, name: "Pimenta de Cheiro", category: "Hortifruti", image: "/images/hortifruti/pimenta-cheiro.jpg" },
+    { id: 133, name: "Cará", category: "Hortifruti", image: "/images/hortifruti/cara.jpg" },
+    { id: 134, name: "Inhame", category: "Hortifruti", image: "/images/hortifruti/inhame.jpg" },
+    { id: 135, name: "Coco Verde", category: "Hortifruti", image: "/images/hortifruti/coco-verde.jpg" },
     
     // =========================================
     // 2. MERCEARIA (Arroz, Feijão, Macarrão...)
