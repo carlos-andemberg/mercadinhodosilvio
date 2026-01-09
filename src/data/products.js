@@ -62,8 +62,10 @@ export const products = [
     { id: 203, name: "Arroz Seu Coração", category: "Mercearia & Alimentos", image: "/images/mercearia/arroz-seu-coracao.jpg" },
     // FEIJÃO
     { id: 210, name: "Feijão Carioca Bom Sabor", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-bom-sabor.jpg" },
-    { id: 211, name: "Feijão Preto Pedileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-pedileto.jpg" },
-    { id: 212, name: "Feijão Corda Tio Vieira", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-corda-vieira.jpg" },
+    { id: 211, name: "Feijão Preto Predileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-predileto-preto.jpg" },
+    { id: 212, name: "Feijão Fradinho Predileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-predileto-fradinho.jpg" },
+    { id: 213, name: "Feijão Carioca Predileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-predileto-carioca.jpg" },
+    { id: 214, name: "Feijão Fradinho Tio Vieira", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-fradinho-vieira.jpg" },
     // FLOCÃO/CUSCUZ
     { id: 220, name: "Flocão Coringa", category: "Mercearia & Alimentos", image: "/images/mercearia/flocao-coringa.jpg" },
     { id: 221, name: "Flocão Maratá", category: "Mercearia & Alimentos", image: "/images/mercearia/flocao-marata.jpg" },
