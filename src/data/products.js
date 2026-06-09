@@ -43,7 +43,7 @@ export const products = [
     { id: 125, name: "Coentro", category: "Hortifruti", image: "/images/hortifruti/coentro.jpg" },
     { id: 126, name: "Laranja Pêra", category: "Hortifruti", image: "/images/hortifruti/laranja-pera.jpg" },
     { id: 127, name: "Maçã", category: "Hortifruti", image: "/images/hortifruti/maca.jpg" },
-    
+
     { id: 128, name: "Laranja Cravo", category: "Hortifruti", image: "/images/hortifruti/laranja-cravo.jpg" },
     { id: 129, name: "Laranja Lima", category: "Hortifruti", image: "/images/hortifruti/laranja-lima.jpg" },
     { id: 130, name: "Abacaxi", category: "Hortifruti", image: "/images/hortifruti/abacaxi.jpg" },
@@ -52,16 +52,15 @@ export const products = [
     { id: 133, name: "Cará", category: "Hortifruti", image: "/images/hortifruti/cara.jpg" },
     { id: 134, name: "Inhame", category: "Hortifruti", image: "/images/hortifruti/inhame.jpg" },
     { id: 135, name: "Coco Verde", category: "Hortifruti", image: "/images/hortifruti/coco-verde.jpg" },
-    
+
     // =========================================
     // 2. MERCEARIA (Arroz, Feijão, Macarrão...)
     // =========================================
     // ARROZ
     { id: 201, name: "Arroz Tio Vieira", category: "Mercearia & Alimentos", image: "/images/mercearia/arroz-tio-vieira.jpg" },
     { id: 202, name: "Arroz Pop", category: "Mercearia & Alimentos", image: "/images/mercearia/arroz-pop.jpg" },
-    { id: 203, name: "Arroz Seu Coração", category: "Mercearia & Alimentos", image: "/images/mercearia/arroz-seu-coracao.jpg" },
+    { id: 203, name: "Arroz Emoções", category: "Mercearia & Alimentos", image: "/images/mercearia/3coracoes.jpg" },
     // FEIJÃO
-    { id: 210, name: "Feijão Carioca Bom Sabor", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-bom-sabor.jpg" },
     { id: 211, name: "Feijão Preto Predileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-predileto-preto.jpg" },
     { id: 212, name: "Feijão Fradinho Predileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-predileto-fradinho.jpg" },
     { id: 213, name: "Feijão Carioca Predileto", category: "Mercearia & Alimentos", image: "/images/mercearia/feijao-predileto-carioca.jpg" },
@@ -89,6 +88,8 @@ export const products = [
     { id: 263, name: "Recheado Treloso", category: "Mercearia & Alimentos", image: "/images/mercearia/recheado-treloso.jpg" },
     { id: 264, name: "Biscoito Passatempo", category: "Mercearia & Alimentos", image: "/images/mercearia/biscoito-passatempo.jpg" },
     { id: 265, name: "Wafer Minueto", category: "Mercearia & Alimentos", image: "/images/mercearia/wafer-minueto.jpg" },
+    { id: 266, name: "Cracker Pilar Premium", category: "Mercearia & Alimentos", image: "/images/mercearia/cracker-pilarpremium.jpg" },
+
     // OUTROS
     { id: 270, name: "Óleo de Soja Liza", category: "Mercearia & Alimentos", image: "/images/mercearia/oleo-liza.jpg" },
     { id: 271, name: "Óleo de Soja Soya", category: "Mercearia & Alimentos", image: "/images/mercearia/oleo-soya.jpg" },
@@ -106,8 +107,9 @@ export const products = [
     { id: 304, name: "Margarina Delícia", category: "Congelados & Frios", image: "/images/congelados/margarina-delicia.jpg" },
     { id: 305, name: "Frango Congelado (Cortes)", category: "Congelados & Frios", image: "/images/congelados/cortes-frango.jpg" },
     { id: 306, name: "Pizza Sadia", category: "Congelados & Frios", image: "/images/congelados/pizza-sadia.jpg" },
-    { id: 307, name: "Hambúrguer (Caixa)", category: "Congelados & Frios", image: "/images/congelados/hamburguer.jpg" },
-
+    { id: 307, name: "Hambúrguer Perdigão", category: "Congelados & Frios", image: "/images/congelados/hamburguer.jpg" },
+    { id: 308, name: "Empanado de Frango", category: "Congelados & Frios", image: "/images/congelados/empanado-de-frango.jpg" },
+    { id: 309, name: "Salsicha Perdigão (kg)", category: "Congelados & Frios", image: "/images/congelados/salsicha-perdigao-kg.jpg" },
     // =========================================
     // 4. BEBIDAS
     // =========================================
@@ -121,10 +123,10 @@ export const products = [
     { id: 407, name: "Cerveja Antarctica Subzero", category: "Bebidas", image: "/images/bebidas/cerveja-subzero.jpg" },
     // REFRIGERANTES
     { id: 410, name: "Coca-Cola 2L", category: "Bebidas", image: "/images/bebidas/coca-cola.jpg" },
-    { id: 411, name: "Guaraná Antarctica", category: "Bebidas", image: "/images/bebidas/guarana-antarctica.jpg" },
-    { id: 412, name: "Pepsi", category: "Bebidas", image: "/images/bebidas/pepsi.jpg" },
-    { id: 413, name: "Sukita Laranja", category: "Bebidas", image: "/images/bebidas/sukita.jpg" },
-    { id: 414, name: "Refrigerante Goob", category: "Bebidas", image: "/images/bebidas/refri-goob.jpg" },
+    { id: 411, name: "Guaraná Antarctica 2L", category: "Bebidas", image: "/images/bebidas/guarana-antarctica.jpg" },
+    { id: 412, name: "Pepsi 2L", category: "Bebidas", image: "/images/bebidas/pepsi.jpg" },
+    { id: 413, name: "Sukita Laranja 2L", category: "Bebidas", image: "/images/bebidas/sukita.jpg" },
+    { id: 414, name: "Refrigerante Goob 2L", category: "Bebidas", image: "/images/bebidas/refri-goob.jpg" },
     // DESTILADOS
     { id: 420, name: "Vodka Slova", category: "Bebidas", image: "/images/bebidas/vodka-slova.jpg" },
     { id: 421, name: "Vodka Balalaika", category: "Bebidas", image: "/images/bebidas/vodka-balalaika.jpg" },

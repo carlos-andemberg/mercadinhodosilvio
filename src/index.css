@@ -1,14 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  /* Definindo as cores do Mercadinho Silvio aqui */
-  --color-brand-blue: #2b3b8c;
-  --color-brand-yellow: #fce94f;
+  /* Cores do Mercadinho Silvio - otimizadas para contraste AAA */
+  --color-brand-blue: #1e2f6f;
+  --color-brand-yellow: #fdd835;
   --color-brand-green: #68c468;
 }
-/* Estilo global opcional */
+
+/* Estilo global */
 body {
-  background-color: #2b3b8c;
   overflow-x: hidden;
   width: 100%;
+}
+
+/* Oculta scrollbar mantendo funcionalidade de scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

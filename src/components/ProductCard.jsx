@@ -1,6 +1,6 @@
 export function ProductCard({ data }) {
   return (
-    <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 flex flex-col overflow-hidden group">
+    <article className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 flex flex-col overflow-hidden group">
       
       {/* Área da Imagem com Zoom suave */}
       {/* Adicionei 'bg-white' para garantir fundo limpo */}
@@ -10,11 +10,11 @@ export function ProductCard({ data }) {
               src={data.image} 
               alt={data.name} 
               // w-auto e h-full com object-contain garante que a imagem não estique
-              className="w-auto h-full max-h-40 object-contain group-hover:scale-110 transition-transform duration-500"
+              className="mix-blend-multiply w-auto h-full max-h-40 object-contain group-hover:scale-110 transition-transform duration-500"
               loading="lazy" 
             />
         ) : (
-            <span className="text-gray-400 text-sm font-medium">Sem imagem</span>
+            <span className="text-gray-500 text-sm font-medium">Sem imagem</span>
         )}
       </div>
       
@@ -30,11 +30,11 @@ export function ProductCard({ data }) {
         </h3>
         
         {data.description && (
-            <p className="text-gray-500 text-sm line-clamp-2">
+            <p className="text-gray-600 text-sm line-clamp-2">
                 {data.description}
             </p>
         )}
       </div>
-    </div>
+    </article>
   );
 }
