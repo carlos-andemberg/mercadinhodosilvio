@@ -5,6 +5,7 @@ export async function GET() {
     token_endpoint: "https://mercadinhodosilvio.com.br",
     jwks_uri: "https://mercadinhodosilvio.com.br",
     scopes_supported: ["public_read"],
+    bearer_methods_supported: ["header"],
     response_types_supported: [],
     grant_types_supported: [],
     agent_auth: {

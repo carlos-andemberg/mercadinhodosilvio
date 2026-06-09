@@ -3,6 +3,7 @@ export async function GET() {
     resource: "https://mercadinhodosilvio.com.br",
     authorization_servers: ["https://mercadinhodosilvio.com.br"],
     scopes_supported: ["public_read"],
+    bearer_methods_supported: ["header"],
     agent_auth: {
       register_uri: "https://mercadinhodosilvio.com.br/auth.md",
       supported_identity_types: ["none"],
