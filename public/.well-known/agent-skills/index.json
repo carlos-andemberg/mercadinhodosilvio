@@ -1,4 +1,12 @@
 {
   "$schema": "https://agentskills.io/schema/index.v0.2.0.json",
-  "skills": []
+  "skills": [
+    {
+      "name": "get_mercadinho_address",
+      "type": "api",
+      "description": "Retorna o endereço físico do Mercadinho do Silvio",
+      "url": "https://mercadinhodosilvio.com.br/robots.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
 }
