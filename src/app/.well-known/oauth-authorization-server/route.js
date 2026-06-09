@@ -6,7 +6,12 @@ export async function GET() {
     jwks_uri: "https://mercadinhodosilvio.com.br",
     scopes_supported: [],
     response_types_supported: [],
-    grant_types_supported: []
+    grant_types_supported: [],
+    agent_auth: {
+      register_uri: "https://mercadinhodosilvio.com.br/auth.md",
+      supported_identity_types: ["none"],
+      credential_types: ["none"]
+    }
   }), {
     headers: { 'Content-Type': 'application/json' }
   });
