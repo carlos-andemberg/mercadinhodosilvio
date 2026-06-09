@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+
+Sitemap: https://mercadinhodosilvio.com.br/sitemap.xml
+
+# AI Content Signals
+Content-Signal: ai-train=yes, search=yes, ai-input=yes

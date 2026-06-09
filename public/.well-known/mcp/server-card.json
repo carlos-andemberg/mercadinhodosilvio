@@ -1,0 +1,11 @@
+{
+  "serverInfo": {
+    "name": "mercadinho-silvio",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "sse",
+    "endpoint": "https://mercadinhodosilvio.com.br"
+  },
+  "capabilities": {}
+}
