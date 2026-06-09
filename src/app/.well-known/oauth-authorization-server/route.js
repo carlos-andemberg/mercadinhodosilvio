@@ -9,9 +9,13 @@ export async function GET() {
     response_types_supported: [],
     grant_types_supported: [],
     agent_auth: {
+      skill: "https://mercadinhodosilvio.com.br/auth.md",
       register_uri: "https://mercadinhodosilvio.com.br/auth.md",
-      supported_identity_types: ["none"],
-      credential_types: ["none"]
+      identity_types_supported: ["anonymous"],
+      anonymous: {
+        credential_types_supported: ["none"]
+      },
+      claim_uri: "https://mercadinhodosilvio.com.br/auth.md"
     }
   }), {
     headers: { 'Content-Type': 'application/json' }

@@ -1,4 +1,4 @@
-# Auth.md
+# auth.md
 
 You are an agent. This service supports **agentic registration**: discover → register → (claim if needed) → exchange for an access_token → call API → handle revocation.
 
