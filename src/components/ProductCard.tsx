@@ -1,4 +1,13 @@
-export function ProductCard({ data }) {
+import Image from 'next/image';
+
+interface Product {
+  name: string;
+  image?: string;
+  category: string;
+  description?: string;
+}
+
+export function ProductCard({ data }: { data: Product }) {
   return (
     <article className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 flex flex-col overflow-hidden group">
       
@@ -6,12 +15,12 @@ export function ProductCard({ data }) {
       {/* Adicionei 'bg-white' para garantir fundo limpo */}
       <div className="h-48 bg-white p-4 flex items-center justify-center overflow-hidden relative">
         {data.image ? (
-            <img 
+            <Image 
               src={data.image} 
               alt={data.name} 
-              // w-auto e h-full com object-contain garante que a imagem não estique
-              className="mix-blend-multiply w-auto h-full max-h-40 object-contain group-hover:scale-110 transition-transform duration-500"
-              loading="lazy" 
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="mix-blend-multiply object-contain p-4 group-hover:scale-110 transition-transform duration-500"
             />
         ) : (
             <span className="text-gray-500 text-sm font-medium">Sem imagem</span>

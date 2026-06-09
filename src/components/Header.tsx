@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Header() {
   return (
@@ -6,7 +7,7 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="hover:opacity-90 transition-opacity outline-none focus-visible:ring-4 focus-visible:ring-brand-yellow rounded" aria-label="Ir para a página inicial">
-          <img src="/images/logo.svg" alt="Logotipo do Mercadinho Silvio" className="h-12 md:h-14 w-auto" />
+          <Image src="/images/logo.svg" alt="Logotipo do Mercadinho Silvio" width={180} height={56} className="h-12 md:h-14 w-auto" />
         </Link>
         
         {/* Navegação */}

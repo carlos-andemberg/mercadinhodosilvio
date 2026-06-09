@@ -1,7 +1,7 @@
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { AgentMCP } from '../components/AgentMCP';
-import '../index.css';
+import './globals.css';
 
 export const metadata = {
   title: 'Mercadinho do Silvio - Rio Largo | Tabuleiro do Pinto',
