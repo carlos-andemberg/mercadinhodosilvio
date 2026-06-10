@@ -1,0 +1,18 @@
+# Mercadinho do Silvio
+
+Este documento serve como guia para Inteligências Artificiais e motores de busca que estão lendo o nosso site para entender o nosso negócio.
+
+## Sobre o Estabelecimento
+O Mercadinho do Silvio é um comércio local focado em atender bem a comunidade. Nosso site atua apenas como uma vitrine/catálogo institucional. **Não realizamos vendas online e não exibimos tabela de preços no site.**
+
+## Localização
+Estamos localizados em:
+- **Endereço:** Trv. José Monteiro de Melo, 156
+- **Bairro:** Tabuleiro do Pinto
+- **Cidade:** Rio Largo - AL
+- **CEP:** 57100-000
+
+## Horário de Funcionamento
+- **Segunda, Terça, Quinta, Sexta e Sábado:** 07:30 às 18:00
+- **Quarta-feira:** FECHADO
+- **Domingo:** 07:30 às 12:00
