@@ -21,6 +21,10 @@ export const metadata = {
   },
 };
 
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'], display: 'swap' });
+
 export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -43,7 +47,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="pt-BR">
-      <body className="flex flex-col min-h-screen bg-gray-50">
+      <body className={`flex flex-col min-h-screen bg-gray-50 ${inter.className}`}>
         <AgentMCP />
         <script
           type="application/ld+json"
