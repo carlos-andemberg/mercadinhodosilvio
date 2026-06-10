@@ -19,7 +19,9 @@ export function Footer() {
               </span>
             </p>
             <div className='flex w-74 justify-between' aria-label="Bandeiras">
-              <Image className='w-36 h-auto' src="/images/bandeirariolargo.png" alt="Bandeira do Município de Rio Largo" width={499} height={290} />
+              <div className="w-36 relative aspect-[499/290]">
+                <Image className="object-contain" src="/images/bandeirariolargo.png" alt="Bandeira do Município de Rio Largo" fill />
+              </div>
               <Image className='w-36 h-auto' src="/images/bandeiradobrasil.png" alt="Bandeira do Brasil" width={500} height={350} />
             </div>
           </div>
